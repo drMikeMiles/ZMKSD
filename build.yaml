@@ -11,6 +11,6 @@ include:
   - board: eyelash_sofle_left
     shield: settings_reset
 
-  - board: eyelash_sofle_dongle
+  - board: eyelash_sofle_left
     shield: eyelash_sofle_dongle
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
