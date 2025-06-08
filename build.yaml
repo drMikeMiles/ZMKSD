@@ -10,3 +10,7 @@ include:
 
   - board: eyelash_sofle_left
     shield: settings_reset
+
+  - board: eyelash_sofle dongle
+    shield: my_keyboard
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
