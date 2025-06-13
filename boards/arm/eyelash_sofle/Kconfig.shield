@@ -1,9 +1,9 @@
 # No whitespace after the comma or in the keyboard name!
 
-config SHIELD_ANNA_ARCH_LEFT
+config SHIELD_eyelash_sofle_LEFT
     def_bool $(shields_list_contains,eyelash_sofle_left)
 
-config SHIELD_ANNA_ARCH_RIGHT
+config SHIELD_eyelash_sofle_RIGHT
     def_bool $(shields_list_contains,eyelash_sofle_right)
 
 config SHIELD_eyelash_sofle_DONGLE
