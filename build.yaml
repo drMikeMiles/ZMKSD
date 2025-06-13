@@ -18,7 +18,7 @@ include:
     artifact-name: xiao_reset_settings
 
   # Add custom dongle and a peripheral left
-  - board: seeeduino_xiao_ble
+  - board: eyelash_sofle_left
     shield: eyelash_sofle_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
