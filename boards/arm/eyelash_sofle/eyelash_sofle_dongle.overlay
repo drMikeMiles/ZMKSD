@@ -1,4 +1,4 @@
-#include <eyelash_sofle.dtsi>
+#include <eyelash_sofle-layouts.dtsi>
 
 &eyelash_sofle_layout {
     transform = <&default_transform>;
