@@ -14,12 +14,12 @@ include:
     artifact-name: Sofle_Reset
 
  # Add these cmake-args to the peripherals you wish to use with the dongle
-  - board: seeeduino_xiao_ble
+  - board: eyelash_sofle_dongle
     shield: eyelash_sofle_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: Sofle_Dongle
 
-  - board: seeeduino_xiao_ble
+  - board: eyelash_sofle_dongle
     shield: settings_reset
     artifact-name: Dongle_Reset
