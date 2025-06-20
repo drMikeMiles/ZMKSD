@@ -20,6 +20,6 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: Sofle_Dongle
 
-- board: seeeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: Dongle_Reset
