@@ -1,25 +1,14 @@
 ---
 include:
-  - board: eyelash_sofle_left
-    shield: nice_epaper
-    artifact-name: Sofle_Left
-
-    #cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+ # - board: eyelash_sofle_left
+#    shield: nice_view
   - board: eyelash_sofle_right
-    shield: nice_epaper
-    artifact-name: Sofle_Right
-
+#   shield: nice_view_custom
+    shield: nice_view
   - board: eyelash_sofle_left
-    shield: settings_reset
-    artifact-name: Sofle_Reset
-
- # Add these cmake-args to the peripherals you wish to use with the dongle
-  - board: eyelash_sofle_dongle
-    shield: eyelash_sofle_dongle
+    shield: nice_view
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-    artifact-name: Sofle_Dongle
-
-  - board: eyelash_sofle_dongle
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    artifact-name: eyelash_sofle_studio_left
+  - board: nice_nano_v2
     shield: settings_reset
-    artifact-name: Dongle_Reset
