@@ -47,6 +47,26 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        LBracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <17 18>;
+        };
+
+        LBrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <30 31>;
+        };
+
+        RBracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <20 21>;
+        };
+
+        RBrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
@@ -85,7 +105,7 @@
         Rise {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp UNDER         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
@@ -98,7 +118,7 @@
         Lower {
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &msc MOVE_Y(10)   &trans  &trans        &trans        &trans        &trans       &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &msc MOVE_Y(-10)  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp UNDER    &kp PLUS
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &msc MOVE_Y(-10)  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS    &kp PLUS
 &trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &kp C_PREV        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LBRC     &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &kp C_NEXT        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &bootloader  &sys_reset
 &trans     &trans        &trans          &trans        &trans        &trans          &kp C_PP          &trans  &trans        &trans        &kp NUMBER_0  &trans
