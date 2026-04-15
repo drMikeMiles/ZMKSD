@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - Lower
-  - Lower
+  - '|'
   - {t: \, h: /, s: '|'}
   - $$mdi:backspace-reverse-outline$$
   Rise:
@@ -192,7 +192,7 @@ layers:
   - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
